@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Lonesome Crowded West</title>
+	</head>
+	<body>
+		<div>
+			<h1>The Lonesome Crowded West</h1>
+			<h2>Modest Mouse</h2>
+			<h3>Novemeber 18, 1997</h3>
+		</div>
+		<div>
+			<p>Modest Mouse's second studio album <i>The Lonesome Crowded West</i> could be the single greatest musical achievement of mankind in recorded history.  "Listen to it now!" writes Steven Fairfield, the creator of this page.</p>
+		</div>
+		<div>
+			<h2>Band Members</h2>
+			<p>Isaac Brock- Guitar, Vocals</p>
+			<p>Jeremiah Green- Drums</p>
+			<p>Eric Judy- Bass Guitar</p>
+		</div>
+	</body>
+</html>
