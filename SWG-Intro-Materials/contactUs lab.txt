@@ -17,6 +17,7 @@
 			</select></p>
 		<p>Additional Information: <textarea name="additionalInformation"></textarea></p>
 		<p><input type="checkbox" name="terms of service">I have read the terms of service</p>
+		<p><input type="submit" value="Send Request"/></p>
 	</form>
 	</body>
 </html>
