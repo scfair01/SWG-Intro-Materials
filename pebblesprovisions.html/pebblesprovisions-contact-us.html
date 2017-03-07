@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="restaurantStyles.css"
+	      rel="stylesheet"
+	      type="text/css" />
+	<style>
+		td {
+		   color: teal;
+		}
+		body {
+		   background-color: LightGoldenrodYellow;
+		}
+	</style>
+	<title>Pebbles' Provisions</title>
+	<div id="header">
+	<h1 align="center">Pebbles' Provisions</h1><hr/>
+	<table width="30%">
+		<tr>
+			<td align="center"><a href="pebblesprovisions.html">Home</a></td>
+			<td align="center"><a href="pebblesprovisions-menu.html">Menu</a></td>
+			<td align="center"><a href="pebblesprovisions-contact-us.html">Contact Us</a></td>
+		</tr>
+	</table><hr/>
+	</div>
+</head>
+<body>
+	<div>
+		<table width="50%">
+		<form action="fakePage.html" method="POST">
+		<tr>
+			<td align="right" width="60%"><span style= "font-weight: bold;">Name: </span></td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<td align="right" width="60%"><span style= "font-weight: bold;">Email: </span></td>
+			<td><input type="text" name="email"></td>
+		</tr>
+		<tr>
+			<td align="right" width="60%"><span style= "font-weight: bold;">Phone: </span></td>
+			<td><input type="text" name="phone"></td>
+		</tr>
+		<tr>
+			<td align="right" width="60%">Reason for Inquiry: </td>
+			<td><select name="reasonsForInquiry">
+				<option value="Catering">Catering</option>
+				<option value="Private Party">Private Party</option>
+				<option value="Feedback">Feedback</option>
+				<option value="Other">Other</option>
+				</select></td>
+				
+		</tr>
+		<tr>
+			<td align="right" width="60%">Additional Information: </td>
+			<td><textarea name="additionalInformation" rows="5"></textarea></td>
+		</tr>
+		<tr>
+			<td align="right" width="60%">Have you been to the restaurant? </td>
+			<td><input type="radio" name="answer" value="No" checked/>No<input type="radio" name="answer" value="Yes"/>Yes</td>
+		</tr>
+		<tr>
+			<td align="right" width="60%"><span style= "font-weight: bold;">Best days to contact you: </span></td>
+			<td><input type="checkbox" name="day" value="M">M
+			    <input type="checkbox" name="day" value="M">T
+			    <input type="checkbox" name="day" value="M">W
+			    <input type="checkbox" name="day" value="M">Th
+			    <input type="checkbox" name="day" value="M">F
+			</td>
+		</tr>
+		<tr>
+			<td align="right"><input type="submit" value="Send Request"></td>
+		</tr>
+		</form>
+		</table>
+	</div>
+	<div>
+	<hr/>
+	<div id="footer">
+	<table width="100%">
+		<tr>
+			<td align="center"><address>123 Kingle Cane Court, Louisville, KY, 40291</address></td>
+		</tr>
+		<tr>
+			<td align="center"><address>502-364-2433</address></td>
+	</div>
+</body>
+</html>
+

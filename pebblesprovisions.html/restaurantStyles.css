@@ -1,0 +1,12 @@
+/* restautrantStyles.css*/
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+#header{
+  font-family: Permanent Marker, cursive;
+  background-color: pink;
+  color: ForestGreen;
+}
+#footer{
+  font-family: Permanent Marker, cursive;
+  background-color: pink;
+  color: ForestGreen;
+}
