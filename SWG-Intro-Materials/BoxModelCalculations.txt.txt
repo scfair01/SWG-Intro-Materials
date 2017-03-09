@@ -1,0 +1,26 @@
+margin-top= MT
+margin-left= ML
+margin-bottom= MB
+margin-right= MR
+border-top= BT
+border-left= BL
+border-bottom= BB
+border-right= BR
+padding-top= PT
+padding-left= PL
+padding-bottom= PB
+padding-right= PR
+height of content= HC
+width of content= WC
+
+total height = MT + BT + PT + HC + PB + BB + MB
+212px = 20px + 1px + 10px + 150px + 10px + 1px + 20px
+
+total width = ML + BL + PL + WC + PR + BR + MR
+462px = 20px + 1px + 10px + 400px + 10px + 1px + 20px
+
+browser calculated height = BT + PT + HC + PB + BB
+172px = 1px + 10px + 150px + 10px + 1px
+
+browser calculated width = BL + PL + WC + PR + BR
+422px = 1px + 10px + 400px + 10px + 1px
