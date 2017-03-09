@@ -10,3 +10,21 @@
   background-color: pink;
   color: ForestGreen;
 }
+selector:link
+	a {
+	 text-decoration: none;
+	}
+	a:link {
+	 color: forestGreen;
+	 text-decoration: none;
+	}
+	a:visited {
+	 color: deepPink;
+	}
+	a:hover {
+	 text-decoration: underline;
+	 font-weight: bold;
+	}
+	a:active {
+	 text-decoration: none;
+	}
