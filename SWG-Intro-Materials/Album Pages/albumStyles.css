@@ -2,4 +2,51 @@
 td {
   color: blue;
   font:  georgia;
+  text-align: center;
 }
+selector:link
+			a {
+			    text-decoration: none;
+			    }
+			  a:link {
+			      color: blue;
+			      text-decoration: none;
+			    }
+			  a:visited {
+			      color: purple;
+			    }
+			  a:hover {
+			      text-decoration: underline;
+			      background-color: yellow;
+			    }
+			    
+			th {
+                          background-color: steelblue;
+                          color: turquoise;
+                            }
+			tbody {
+			  background-color: turquoise;
+			  font-style: italic;
+			   }
+                        body {
+                          background-color: slategray;
+                             }
+     		        h1 {
+                          font-family: 'Playfair Display', serif;
+                           }
+			#membersAndProducers {
+                          font-family: 'Playfair Display', serif;
+			   }
+			ul {
+			  font-style: italic;
+                           }
+			.albumCoverImage {
+			  background-image: url('https://upload.wikimedia.org/wikipedia/en/f/f5/MMLonesomeCrowdedWest.jpg');			  
+			  width: 340px;
+			  height: 340px;
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  border-radius: 50%;
+			  margin-left: auto;
+			  margin-right: auto;
+			  }
