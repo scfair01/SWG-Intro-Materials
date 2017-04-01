@@ -11,8 +11,11 @@
 	<!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-
-	<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<noscript>This site works best with JavaScript enabled!</noscript>
+    
+    <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<style>
 		h2 {
@@ -24,25 +27,28 @@
 		}
 	</style>
 	<title>Pebbles' Provisions</title>
+</head>
+    
+<body>
 	<div id="header">
-	<h1 align="center">Pebbles' Provisions</h1><hr/>
-	<div="jumbotron">
+	<h1 align="center">Pebbles' Provisions</h1>
+	<div class="jumbotron">
 	 <div class="container text-center">
-	 <h1>New location opening soon - in the Ethereal Plane!</h1>
+	 <h2>New location opening soon - in the Ethereal Plane!</h2>
 	 </div>
 	</div>
+        
 	<div>
 	 <ul class="list-inline">
 	  <ul  class="nav nav-pills">
 		<li><a href="pebblesprovisions.html"><span class="glyphicon glyphicon-home"></span></a></li>
 		<li><a href="pebblesprovisions-menu.html">Menu</a></li>
 		<li><a href="pebblesprovisions-contact-us.html">Contact Us</a></li>
-	</ul>
-	</ul>
-	<hr/>
+	  </ul>
+	 </ul>
 	</div>
-</head>
-<body>
+    </div>
+        
 	<div>
 	  <div class="container">
 	   <div class="row">
@@ -126,6 +132,55 @@
 	   </div>
 	  </div>
 	</div>        
+    
+    <div id="pebsCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#pebsCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#pebsCarousel" data-slide-to="1"></li>
+    <li data-target="#pebsCarousel" data-slide-to="2"></li>
+    <li data-target="#pebsCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+ <div class="item active">
+      <h2 align="center">We're opening a new location!</h2>
+    </div>
+
+   <div class="item">
+      <h2 align="center">We're rolling out our seasonal menu, with special options for this season.</h2>
+    </div>
+
+    <div class="item">
+      <h2 align="center">The Drink of the Month is SG Special Brew.</h2>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#pebsCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#pebsCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    
+    <div id="footer">
+    <table width="100%">
+        <tr>
+         <td align="center"><address>123 Kingle Cane Court, Louisville, KY, 40291</address></td>
+        </tr>
+        <tr>
+         <td align="center"><address>502-364-2433</address></td>
+        </tr>
+    </table>
+    </div>
+    
 </body>
 </html>
 

@@ -13,11 +13,15 @@
   color: ForestGreen;
 }
 
+#pebsCarousel{
+  font-family: Permanent Marker, cursive;
+  color: ForestGreen;
+}
+
 p{
   color: teal;
   font-family: georgia;
 }
-
 
 selector:link
 	a {
